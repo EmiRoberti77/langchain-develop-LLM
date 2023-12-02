@@ -3,6 +3,7 @@
     "dotenv",
     "langchain",
     "OPENAI",
+    "pydantic",
     "Roberti",
     "serpapi",
     "Vincenzo"

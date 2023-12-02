@@ -1,41 +1,99 @@
 <mxfile host="65bd71144e">
     <diagram id="hiJB7JuD62zbpTZAgT0Y" name="Page-1">
-        <mxGraphModel dx="829" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="640" dy="1741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="8" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                <mxCell id="8" style="edgeStyle=none;html=1;" parent="1" source="2" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="&amp;nbsp;- template - &lt;br&gt;what we are asking to do" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="2" value="&amp;nbsp;- template - &lt;br&gt;what we are asking to do" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="60" y="70" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="4">
+                <mxCell id="9" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="pass thi into a&amp;nbsp;&lt;br&gt;prompt template&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="3" value="pass thi into a&amp;nbsp;&lt;br&gt;prompt template&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="60" y="150" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="5">
+                <mxCell id="10" style="edgeStyle=none;html=1;" parent="1" source="4" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="select engine&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="14" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="select engine&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="60" y="230" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="6">
+                <mxCell id="11" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="create LLCHain and&amp;nbsp;&lt;br&gt;pass Engine and template to it" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="5" value="create LLCHain and&amp;nbsp;&lt;br&gt;pass Engine and template to it" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="60" y="310" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" style="edgeStyle=none;html=1;" edge="1" parent="1" source="6" target="7">
+                <mxCell id="12" style="edgeStyle=none;html=1;" parent="1" source="6" target="7" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="get informaiotn to pass to chain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="6" value="get informaiotn to pass to chain" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="60" y="390" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="Run the chain to get response based on&amp;nbsp;&lt;br&gt;template" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="7" value="Run the chain to get response based on&amp;nbsp;&lt;br&gt;template" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="60" y="470" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="create chain tool&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="730" y="230" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="agent - reAct&lt;br&gt;Agent Type =&amp;nbsp;&lt;span style=&quot;color: rgb(79, 193, 255); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;ZERO_SHOT_REACT_DESCRIPTION&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="370" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="17" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div&gt;    &lt;span style=&quot;color: #9cdcfe;&quot;&gt;summary_template&lt;/span&gt; = &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;    given the linkedIn information &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;{information}&lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt; about a person from I want you to create:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;    1. a short summary&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;    2. the interesting facts about them&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;    3. work history &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;    keep every point to max 100 words&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;  &quot;&quot;&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #9cdcfe;&quot;&gt;summary_template_information&lt;/span&gt; = &lt;span style=&quot;color: #4ec9b0;&quot;&gt;PromptTemplate&lt;/span&gt;(&lt;/div&gt;&lt;div&gt;        &lt;span style=&quot;color: #9cdcfe;&quot;&gt;input_variables&lt;/span&gt;=[&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;information&quot;&lt;/span&gt;], &lt;span style=&quot;color: #9cdcfe;&quot;&gt;template&lt;/span&gt;=&lt;span style=&quot;color: #9cdcfe;&quot;&gt;summary_template&lt;/span&gt;&lt;/div&gt;&lt;div&gt;    )&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="-80" width="740" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;summary_template_information&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;PromptTemplate&lt;/span&gt;(&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;input_variables&lt;/span&gt;=[&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;information&quot;&lt;/span&gt;],&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;template&lt;/span&gt;=&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;summary_template&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="120" width="560" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;chain&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; = &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;LLMChain&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;llm&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;llm&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;prompt&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;summary_template_information&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="190" width="570" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="275" y="560"/>
+                            <mxPoint x="120" y="560"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;print&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;chain&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;run&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;information&lt;/span&gt;=&lt;span style=&quot;color: #9cdcfe;&quot;&gt;linkedIn_information&lt;/span&gt;))&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="610" width="410" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="24" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="200" y="330"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;entryX=0.425;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="24" target="13">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="740" y="325"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;linkedIn_profile_url&lt;/span&gt; = &lt;span style=&quot;color: #dcdcaa;&quot;&gt;lookup_linkedIn_agent&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;name&lt;/span&gt;=&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;j smith&quot;&lt;/span&gt;)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="310" width="510" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div&gt;    &lt;span style=&quot;color: #dcdcaa;&quot;&gt;print&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;linkedIn_profile_url&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #9cdcfe;&quot;&gt;linkedIn_information&lt;/span&gt; = &lt;span style=&quot;color: #dcdcaa;&quot;&gt;scrape_linkedin_profile&lt;/span&gt;(&lt;/div&gt;&lt;div&gt;        &lt;span style=&quot;color: #9cdcfe;&quot;&gt;linkedin_profile_url&lt;/span&gt;=&lt;span style=&quot;color: #9cdcfe;&quot;&gt;linkedIn_profile_url&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;        &lt;span style=&quot;color: #9cdcfe;&quot;&gt;fake&lt;/span&gt;=&lt;span style=&quot;color: #569cd6;&quot;&gt;False&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;    )&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="380" width="430" height="100" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
